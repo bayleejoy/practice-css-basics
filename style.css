@@ -1,0 +1,84 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: blue;
+}
+
+.active {
+  background-color: #4CAf50;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  float: center;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin-left: 400px;
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+  overflow: auto;
+
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 190px;
+  width: 15%;
+  overflow: auto;
+}
+
+}
+
+#head {
+  align: right;
+  margin-left: 100px;
+}
+
+#p1 {
+  margin-left: 300px;
+}
+
+#cloud {
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+#bird {
+  margin-right: 15px;
+}
+
+#foles {
+  margin-right: 15px;
+}
