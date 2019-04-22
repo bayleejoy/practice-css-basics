@@ -1,6 +1,7 @@
 body {
   background-color: #77ab59;
   font-family: arial;
+  margin: 0;
 }
 
 a {
@@ -51,10 +52,12 @@ figure {
 
 figure img {
   border-radius: 100%;
+  margin-bottom: 5px;
 }
 
 #introduction {
   min-height: 500px;
+  margin-right: 20px;
 }
 
 .profile {
@@ -70,8 +73,8 @@ section img {
 }
 
 footer {
-  margin-top: 50px;
-  padding-top: 30px;
+  margin-top: 20px;
+  padding-top: 100px;
   text-align: center;
 }
 
