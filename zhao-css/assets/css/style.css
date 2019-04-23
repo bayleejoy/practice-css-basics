@@ -1,0 +1,103 @@
+body {
+  background-color: #77ab59;
+  font-family: arial;
+  margin: 0;
+}
+
+strong {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+em {
+  font-family: cursive;
+  font-size: 15px;
+}
+
+a {
+  color: #234d20;
+  font-family: lucida console;
+}
+
+a:hover {
+  color: #f0f7da;
+  transition: 0.3s;
+}
+
+h1, h2 {
+  font-size: 30px;
+  color: #234d20;
+  font-family: Impact;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Georgia;
+}
+
+header, footer {
+  background-color: #c9df8a;
+}
+
+header img {
+  position: relative;
+  top: 10px;
+  left: 45%;
+}
+
+header img:hover {
+  content: url("https://via.placeholder.com/150x50.png/f0f7da/234d20?text=BOO!");
+}
+
+header nav {
+  position: relative;
+  top: -30px;
+  left: 60%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+figure {
+  float: left;
+}
+
+figure img {
+  border-radius: 100%;
+  margin-bottom: 5px;
+}
+
+#introduction {
+  min-height: 500px;
+  margin-right: 20px;
+}
+
+.profile {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section img {
+  float: left;
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+footer hr {
+  display: inline-block;
+  width: 0px;
+  height: 35px;
+  border-right: solid;
+}
+
+footer a {
+  position: relative;
+  top: -17px;
+  font-size: 20px;
+}
