@@ -1,0 +1,104 @@
+body {
+  background-color: #FFFFFF;
+  font-family: arial;
+  margin: 0;
+}
+
+strong {
+  font-family: impact;
+  font-size: 18px;
+}
+
+em {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+a {
+  color: #0b3142;
+  font-family: sans-serif;
+}
+
+a:hover {
+  color: #bee9e8;
+  transition: 0.3s;
+}
+
+h1, h2 {
+  font-size: 30px;
+  color: #0b3142;
+  font-family: Impact;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Impact;
+}
+
+header, footer {
+  background-color: #FFFFFF;
+}
+
+header img {
+  position: relative;
+  top: 10px;
+  left: 45%;
+}
+
+header img:hover {
+  float: left;
+  content: url("https://via.placeholder.com/150x50.png/2ecof9/FFFFFF?text=GOTCHA");
+}
+
+header nav {
+  position: relative;
+  top: -30px;
+  left: 60%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+figure {
+  float: left;
+}
+
+figure img {
+  border-radius: 100%;
+  margin-bottom: 5px;
+}
+
+#Introduction {
+  min-height: 500px;
+  margin-right: 20px;
+}
+
+.profile {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section img {
+  float: left;
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+footer hr {
+  display: inline-block;
+  width: 0px;
+  height: 35px;
+  border-right: solid;
+}
+
+footer a {
+  position: relative;
+  top: -17px;
+  font-size: 20px;
+}
